@@ -1,0 +1,89 @@
+input[type=radio]{
+    display: none;
+}
+
+.star{
+    cursor: pointer;
+}
+
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+/* #reviewSubmit{
+    background-color: #008DDA;
+    border-radius: 10px;
+    color: white;
+    border-width: 0;
+    padding: 8px;
+    box-shadow: 2px;
+} */
+
+.link {
+    text-decoration: none;
+    background-color: #ACE2E1;
+    color: black;
+    transition: 0.3s ease;
+}
+.link:hover{
+    background-color: #008DDA;
+    color: white; /* Optional: Change text color on hover */
+}
+.link.disabled {
+    background-color: #8201f3;
+    pointer-events: none;
+    cursor: default;
+    color: gray; /* Or any color to indicate it's disabled */
+}
+
+
+.css-selector {
+    background: linear-gradient(183deg, #008DDA, #41C9E2, #ACE2E1   , #F7EEDD);
+    background-size: 800% 800%;
+    -webkit-animation: bganimate 12s ease infinite;
+    -moz-animation: bganimate 12s ease infinite;
+    animation: bganimate 12s ease infinite;
+}
+
+@-webkit-keyframes bganimate {
+    0%{background-position:83% 0%}
+    50%{background-position:18% 100%}
+    100%{background-position:83% 0%}
+}
+@-moz-keyframes bganimate {
+    0%{background-position:83% 0%}
+    50%{background-position:18% 100%}
+    100%{background-position:83% 0%}
+}
+@keyframes bganimate {
+    0%{background-position:83% 0%}
+    50%{background-position:18% 100%}
+    100%{background-position:83% 0%}
+}
+
+
+.hover-effect {
+    background-color: #FFC107;
+    color: black;
+    transition: 0.3s ease;
+}
+.hover-effect:hover{
+    background-color: #142749;
+    color: white; /* Optional: Change text color on hover */
+}
+
+.reviewed {
+    background-color: rgb(21, 255, 0) !important; /* Ensure it overrides other styles */
+     /* Optional: Change text color for reviewed state */
+}
+.hover-effect-button {
+    background-color: #FFC10B;
+    color: black;
+    transition: 0.3s ease;
+}
+.hover-effect-button:hover{
+    background-color: white;
+    color: black; /* Optional: Change text color on hover */
+}
+
+
