@@ -1,0 +1,100 @@
+/* src/components/Table.css */
+.table-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .beautiful-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .beautiful-table thead tr {
+    background-color: #142749;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .beautiful-table th,
+  .beautiful-table td {
+    padding: 12px 15px;
+  }
+  
+  .beautiful-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .beautiful-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .beautiful-table tbody tr:last-of-type {
+    border-bottom: 2px solid #142749;
+  }
+  
+  .beautiful-table tbody tr.active-row {
+    font-weight: bold;
+    color: #142749;
+  }
+
+  .toggle-button {
+    margin: 20px;
+    padding: 20px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #142749;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .toggle-button:hover {
+    background-color: #FFC107;
+    color:black;
+  }
+.table-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* CSS FOR LOGIN PAGE */
+.gradient-custom-2-admin {
+    /* fallback for old browsers */
+    background: #142749;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: #142749;
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #142749;
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form-admin {
+    height: 100%;
+    }
+    }
+    @media (min-width: 769px) { 
+    .gradient-custom-2-admin {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+html,body{ 
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.Toastify__toast-container {
+  z-index: 9999;
+}

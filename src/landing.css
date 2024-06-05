@@ -1,0 +1,29 @@
+.landingdiv{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+/*     background-image: url("./assets/bg-landing-page.svg"); */
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.landing_btn{
+    margin: 40px;
+}
+.landing_btn:hover{
+    background-color: #FDE8AB;
+}
+.landing_text{
+    font-size: 70px;
+}
+@media(max-width: 780){
+    .landing_text{
+        font-size: 30px;
+    }
+}
